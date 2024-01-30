@@ -1,0 +1,214 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  height: 80px;
+  background-color: white;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+header li {
+  margin-right: 60px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+header li:hover {
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.icone {
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+.icone-globe,
+.icone-chariot,
+.icone-user {
+  margin-right: 20px;
+}
+
+.bloc-one img {
+  width: 100%;
+}
+
+.products-title p {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  text-align: center;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.item p {
+  margin-top: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+}
+
+.item p.ptext {
+  overflow-wrap: break-word;
+  width: 240px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 26px;
+}
+
+.item p.ptext-two {
+  width: 240px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 31px;
+}
+
+.item button {
+  background-color: rgb(26, 41, 90);
+  color: white;
+  height: 64px;
+  width: 234px;
+  border-radius: 30px;
+  font-size: 26px;
+}
+
+.item p.price {
+  margin-top: 57px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.item p.price-two {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 35px;
+}
+
+.subscription p {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.button-one,
+.button-two,
+.button-three {
+  margin-top: 55px;
+}
+
+p.subscription-text {
+  font-size: 20px;
+  width: 767px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: lighter;
+}
+
+.area-text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.area-text p {
+  font-size: 24px;
+}
+
+.area-text-two {
+  display: flex;
+  justify-content: space-around;
+}
+
+.area-text-two p {
+  font-size: 16px;
+}
+
+p.area-box-one {
+  width: 385px;
+}
+
+p.area-box-two {
+  width: 438px;
+}
+
+p.area-box-three {
+  width: 412px;
+}
+
+div.area-box-one {
+  margin-left: 2%;
+}
+
+div.area-box-two {
+  margin-left: 5%;
+}
+
+p.price-area {
+  margin-top: 20.5%;
+}
+
+p.price-area-two {
+  margin-top: 15%;
+}
+
+button {
+  background-color: rgb(26, 41, 90);
+  color: white;
+  height: 64px;
+  width: 234px;
+  border-radius: 30px;
+  font-size: 26px;
+}
+
+.butto {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+}
+
+footer {
+  background-color: #1a295a;
+  height: 130px;
+  display: flex;
+  color: white;
+  text-align: center;
+}
+
+.containerHeaderFooter {
+  /* Pour le header et le footer */
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
