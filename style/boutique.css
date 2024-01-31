@@ -1,7 +1,7 @@
 * {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
-    
+    color:#1A295A;
 }
 
 a {   /* Permet d'enlever la mise en forme de base des liens*/
@@ -272,4 +272,8 @@ footer {
     display: flex;
     color: white;
     text-align: center;
+}
+
+footer p {
+  color: white;
 }
