@@ -7,6 +7,7 @@
 * {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
+    color:#1A295A;
     
 }
 
@@ -259,4 +260,8 @@ footer {
     display: flex;
     color: white;
     text-align: center;
+}
+
+footer p {
+  color: white;
 }
