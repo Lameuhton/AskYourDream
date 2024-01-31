@@ -298,7 +298,15 @@ footer {
     color: white;
     text-align: center;
 }
+footer p {
+  color: white;
+  text-align: center;
+}
 
+p a {
+    text-align: center;
+    white-space: nowrap;
+}
 footer p {
   color: white;
 }
