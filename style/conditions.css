@@ -96,7 +96,7 @@ header {
 
 /* ici photo Conditions a ajouter*/
 .premierePartie {
-    background-image: url("images/banniereConditions.png");
+    background-image: url("../images/banniereConditions.png");
     background-size: cover;
     height: 485px;
     display: flex;
