@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    color:#1A295A;
+    
+}
+
+a {   /* Permet d'enlever la mise en forme de base des liens*/
+    text-decoration: none;
+    color: inherit;
+    display: inherit;
+    align-items: inherit;
+}
+
+
+/* --------------- Header -----------------*/
+
+main {
+    padding-top: 80px;
+}
+
+.noBullets {
+    list-style-type: none;
+    padding: 0; /* pour qu'il n'y ai plus de puces devant */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 543.51px;
+    height: 53.33px;
+    color:#1A295A;
+}
+
+.noBullets li, .logoHeader p {
+    font-weight: bold;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerHeaderFooter { /* Pour le header et le footer */
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoHeader {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    width: 68.81px;
+    height: 56.53px;
+}
+
+#iconeLangue {
+    width: 26.96px;
+    height: 26px;
+}
+
+#iconeChariot {
+    width: 26px;
+    height: 26px;
+}
+
+#iconeUtilisateur {
+    width: 24.36px;
+    height: 26px;
+}
+
+.iconesHeader {
+    display: flex;
+    justify-content: space-between;
+    width: 104px;
+ }
+
+/*----------------------------*/
+
+li {
+  list-style-type: none;
+  padding: 0; /* pour qu'il n'y ai plus de puces devant */
+
+}
+    
+.bloc-one img {
+  width: 100%;
+}
+
+.products-title p {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.item {
+  text-align: center;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.item p {
+  margin-top: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+}
+
+.item p.ptext {
+  overflow-wrap: break-word;
+  width: 240px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 26px;
+}
+
+.item p.ptext-two {
+  width: 240px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 31px;
+}
+
+.item p.ptext-two2 {
+  width: 240px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 70px;
+  
+}
+
+.item button {
+  background-color: rgb(26, 41, 90);
+  color: white;
+  height: 64px;
+  width: 234px;
+  border-radius: 30px;
+  font-size: 26px;
+}
+
+.item p.price {
+  margin-top: 57px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.item p.price-two {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 35px;
+}
+
+.subscription p {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.button-one,
+.button-two,
+.button-three {
+  margin-top: 55px;
+}
+
+p.subscription-text {
+  font-size: 20px;
+  width: 767px;
+  text-align: center;
+  margin: 20px auto;
+  font-weight: lighter;
+}
+
+.area-text {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.area-text p {
+  font-size: 24px;
+}
+
+.area-text-two {
+  display: flex;
+  justify-content: space-around;
+}
+
+.area-text-two p {
+  font-size: 16px;
+}
+
+p.area-box-one {
+  width: 385px;
+}
+
+p.area-box-two {
+  width: 438px;
+}
+
+p.area-box-three {
+  width: 412px;
+}
+
+div.area-box-one {
+  margin-left: 2%;
+}
+
+div.area-box-two {
+  margin-left: 5%;
+}
+
+p.price-area {
+  margin-top: 20.5%;
+}
+
+p.price-area-two {
+  margin-top: 15%;
+}
+
+p.prixDeux {
+  margin-top: 10%;
+}
+
+p.ptext {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+button {
+    width: 230px;
+    height: 64px;
+    background-color: #1A295A;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 50px;
+  
+}
+
+.butto {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+}
+
+/* -----------Footer-----------*/
+
+footer {
+    background-color:#1A295A;
+    height: 130px;
+    display: flex;
+    color: white;
+    text-align: center;
+}
