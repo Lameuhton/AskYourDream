@@ -240,10 +240,14 @@ text-align: center;
 }
 
 p a {
-  text-align: center;
-  white-space: nowrap;
+    text-align: center;
+    white-space: nowrap;
 }
 footer p {
-color: white;
+  color: white;
+}
+
+.blanc {
+    color: white;
 }
 
