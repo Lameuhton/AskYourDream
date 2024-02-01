@@ -102,14 +102,6 @@ header {
     display: flex;
 }
 
-.premierePartie p {
-    font-size: 26px;
-    color:#1A295A;
-    width: 960px;
-    text-align: left;
-    font-weight: 600px;
-}
-
 .containerPremierePartie {
     margin-left: auto;
     margin-right: auto;
