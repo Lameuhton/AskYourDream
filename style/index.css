@@ -98,7 +98,7 @@ header {
 
 
 .premierePartie {
-    background-image: url("../images/backgroundImage.png");
+    background-image: url(../images/backgroundImage.png);
     background-size: cover;
     height: 485px;
     display: flex;
