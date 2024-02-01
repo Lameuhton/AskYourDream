@@ -93,7 +93,7 @@ header {
 
 /* ici photo FAQ a ajouter*/
 .premierePartie {
-background-image: url("images/backgroundFAQ.png");
+background-image: url(../images/backgroundFAQ.png);
     background-size: cover;
     height: 485px;
     display: flex;
