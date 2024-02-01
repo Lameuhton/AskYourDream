@@ -255,15 +255,14 @@ footer {
   color: white;
   text-align: center;
 }
+p a {
+    text-align: center;
+    white-space: nowrap;
+}
 footer p {
-color: white;
-text-align: center;
+  color: white;
 }
 
-p a {
-  text-align: center;
-  white-space: nowrap;
-}
-footer p {
-color: white;
+.blanc {
+    color: white;
 }
