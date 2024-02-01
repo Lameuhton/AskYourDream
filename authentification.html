@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/authentification.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+    />
+    <title>Authentification | AskYourDream</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+
+      <div class="containerHeaderFooter">
+          <div class="logoHeader">
+              <a href="index.html">
+                  <img src="images/logo.png" class="logo">
+                  <p>Know yourself</p>
+              </a>
+          </div>
+          
+          <nav>
+              <ol class="noBullets">
+                  <li><a href="index.html">À propos</a></li>
+                  <li><a href="boutique.html">Boutique</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+              </ol>
+          </nav>  
+          
+          <div class="iconesHeader">
+              <img src="images/globe.png" id="iconeLangue">
+              <img src="images/chariot.png" id="iconeChariot">
+              <img src="images/utilisateur.png" id="iconeUtilisateur">
+          </div>
+      </div>
+
+  </header>
+    <!-- BANNIERE-->
+    <main>
+      <section class="baniere">
+        <div class="containerBaniere">
+          <h1>Authentification</h1>
+        </div>
+      </section>
+      <!--Mot de passe oublié-->
+      <section class="forgot">
+        <h2>Mot de passe oublié?</h2>
+        <p>
+          Saisissez l'adresse e-mail liée à votre compte, et nous vous enverrons
+          un lien de réinitialisation.
+        </p>
+        <form action="" method="get" class="forgot-mail">
+          <div class="mail">
+            <label for="name">Votre e-mail :</label>
+            <input type="text" name="email" id="email" required />
+          </div>
+          <div class="submit-mail">
+            <input type="submit" value="Envoyer" class="submit">
+          </div>
+        </form>
+      </section>
+      <!--Pas encore membre ?-->
+      <section class="not-member">
+        <h2>Pas encore membre ?</h2>
+        <p>Rejoignez-nous !</p>
+        <form action="">
+          <label
+            ><input
+              type="radio"
+              name=""
+              id="monsieur"
+              value="Monsieur"
+            />Monsieur</label
+          >
+          <label
+            ><input type="radio" name="" id="madame" value="Madame" />Madame</label
+          >
+        </form>
+        <p class="p-member">Nom :</p>
+        <label><input type="text" name="nom" id="text" /></label>
+        <p class="p-member">Prénom :</p>
+        <label><input type="text" name="prenom" id="text" /></label>
+        <p class="p-member">Adresse de domicile :</p>
+        <label><input type="text" name="prenom" id="text" /></label>
+        <p class="p-member">Adresse e-mail :</p>
+        <label><input type="text" name="e-mail" id="text" /></label>
+        <p class="p-member">Mot de passe :</p>
+        <label><input type="password" name="password" id="text" /></label>
+        <p class="p-member">Confirmation du mot de passe :</p>
+        <label><input type="password" name="re-password" id="text" /></label>
+        <div class="inscript">
+          <input type="submit" value="Envoyer" class="submit">
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="containerHeaderFooter">
+          <img src="images/logo.png" class="logo">
+          <p>Politique de confidentialité | <a href="conditions.html">Conditions d'utilisation</a> <br> © 2024 Ask Your Dream - Libérez le potentiel de votre esprit pendant la nuit.</p>
+          <img src="images/logo.png" class="logo">
+      </div>
+  </footer>
+  </body>
+</html>
