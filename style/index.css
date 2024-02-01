@@ -127,10 +127,20 @@ h1 {
     font-size: 64px;
     width: 920px;
     text-align: center;
+    text-shadow: 
+    -1px -1px 0 #1A295A,
+     1px -1px 0 #1A295A,
+    -1px  1px 0 #1A295A,
+     1px  1px 0 #1A295A;
 }
 
 .bleuFoncé {
     color: #1A295A;
+    text-shadow: 
+    -1px -1px 0 #ffffff,
+     1px -1px 0 #ffffff,
+    -1px  1px 0 #ffffff,
+     1px  1px 0 #ffffff;
 }
 
 
@@ -309,4 +319,8 @@ p a {
 }
 footer p {
   color: white;
+}
+
+.blanc {
+    color: white;
 }
