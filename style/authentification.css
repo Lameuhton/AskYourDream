@@ -87,7 +87,7 @@ header {
 /* Banniere */
 
 .baniere {
-  background-image: url(../img/banniereAuthentification.png);
+  background-image: url(../images/banniereAuthentification.png);
   background-size: cover;
   height: 485px;
   display: flex;
