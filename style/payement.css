@@ -336,11 +336,11 @@ section.carte button {
 /* -----------Footer-----------*/
 
 footer {
-  background-color:#1A295A;
-  height: 130px;
-  display: flex;
-  color: white;
-  text-align: center;
+    background-color:#1A295A;
+    height: 130px;
+    display: flex;
+    color: white;
+    text-align: center;
 }
 p a {
     text-align: center;

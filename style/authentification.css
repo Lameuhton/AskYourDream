@@ -13,77 +13,84 @@ a {
 
 /* --------------- Header -----------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+
+.logoHeader p {
+    font-family: 'Playfair Display', serif;
+}
+
 main {
-  padding-top: 80px;
+    padding-top: 80px;
 }
 
 .noBullets {
-  list-style-type: none;
-  padding: 0; /* pour qu'il n'y ai plus de puces devant */
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 543.51px;
-  height: 53.33px;
-  color: #1a295a;
+    list-style-type: none;
+    padding: 0; /* pour qu'il n'y ai plus de puces devant */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 543.51px;
+    height: 53.33px;
+    color:#1A295A;
 }
 
-.noBullets li,
-.logoHeader p {
-  font-weight: bold;
+.noBullets li, .logoHeader p {
+    font-weight: bold;
 }
 
 header {
-  background-color: white;
-  position: fixed;
-  width: 100%;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.containerHeaderFooter {
-  /* Pour le header et le footer */
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 95%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.containerHeaderFooter { /* Pour le header et le footer */
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logoHeader {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
+
 .logo {
-  width: 68.81px;
-  height: 56.53px;
+    width: 68.81px;
+    height: 56.53px;
+    margin-right: 10px;
 }
 
 #iconeLangue {
-  width: 26.96px;
-  height: 26px;
+    width: 26.96px;
+    height: 26px;
 }
 
 #iconeChariot {
-  width: 26px;
-  height: 26px;
+    width: 26px;
+    height: 26px;
 }
 
-#iconeUtilisateur {
-  width: 24.36px;
-  height: 26px;
+#utilisateur {
+    width: 24.36px;
+    height: 26px;
 }
 
 .iconesHeader {
-  display: flex;
-  justify-content: space-between;
-  width: 104px;
-}
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+ }
 /* Banniere */
 
 .baniere {
@@ -225,20 +232,15 @@ div.inscript {
   margin-right: 10px;
 }
 
-/*footer*/
+/* -----------Footer-----------*/
 
 footer {
-  background-color:#1A295A;
-  height: 130px;
-  display: flex;
-  color: white;
-  text-align: center;
+    background-color:#1A295A;
+    height: 130px;
+    display: flex;
+    color: white;
+    text-align: center;
 }
-footer p {
-color: white;
-text-align: center;
-}
-
 p a {
     text-align: center;
     white-space: nowrap;

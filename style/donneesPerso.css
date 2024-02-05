@@ -335,7 +335,6 @@ button {
 margin-bottom: 10px;
 
 }
-
 /* -----------Footer-----------*/
 
 footer {
@@ -345,11 +344,6 @@ footer {
     color: white;
     text-align: center;
 }
-footer p {
-  color: white;
-  text-align: center;
-}
-
 p a {
     text-align: center;
     white-space: nowrap;
