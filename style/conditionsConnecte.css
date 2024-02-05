@@ -21,6 +21,14 @@ a {   /* Permet d'enlever la mise en forme de base des liens*/
 
 /* --------------- Header -----------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+
+.logoHeader p {
+    font-family: 'Playfair Display', serif;
+}
+
+
 main {
     padding-top: 80px;
 }
@@ -68,6 +76,7 @@ header {
 .logo {
     width: 68.81px;
     height: 56.53px;
+    margin-right: 10px;
 }
 
 #iconeLangue {
@@ -80,16 +89,94 @@ header {
     height: 26px;
 }
 
-#iconeUtilisateur {
-    width: 24.36px;
-    height: 26px;
+#utilisateur {
+    width: 26.36px;
+    height: 28px;
 }
 
 .iconesHeader {
     display: flex;
     justify-content: space-between;
-    width: 104px;
+    align-items: center;
+    width: 120px;
  }
+
+/*Pour l'affichage de la box sur l'icone utilisateur*/
+
+.iconeUtilisateur {
+    border-radius: 10px;
+    /*transition: background-color 0.3s, margin 0.3s;``*/
+    display: flex;
+    justify-content: flex-end;
+    transition: background-color 0.3s; /* Ajout de la transition pour la propriété background-color */
+    overflow: hidden;
+    padding: 2px; /* Ajustez la valeur selon vos besoins pour prévoir de l'espace pour le fond plus grand */
+    background-color: #fff;
+}
+
+.iconeUtilisateur:hover {
+    background-color: #1A295A; /* Couleur de fond lors du survol */
+}
+
+.iconeUtilisateur img {
+    border-radius: 10px;
+    transition: filter 0.3s; /* Ajoute une transition pour un effet plus fluide */
+}
+
+.utilisateurBox {
+    margin-top: 29px;
+    display: none;
+    position: absolute;
+    background-color: #1A295A;
+    border-radius: 15px; 
+    width: 182px;
+    height: 140px;
+
+}
+
+.iconeUtilisateur:hover .utilisateurBox,
+.utilisateurBox:hover {
+    display: block;
+}
+
+.utilisateurBox li {
+    color: white;
+    list-style-type: none;
+    margin: auto;
+}
+
+.utilisateurBox ul {
+    
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+}
+
+.utilisateurBoxContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 182px;
+    height: 140px;
+
+}
+
+.deconnexion {
+    color:#1A295A;
+    background: white;
+    width: 140px;
+    height: 26px;
+    font-size: 15px;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0;
+}
 
 /* -----------Bloc Image-----------*/
 
@@ -238,7 +325,6 @@ button {
 margin-bottom: 13px;
 
 }
-
 
 
 
