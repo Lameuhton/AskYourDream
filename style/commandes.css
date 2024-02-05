@@ -174,6 +174,37 @@ header {
     cursor: pointer;
     margin: 0;
 }
+
+/*--------------------------------------*/
+/*              BANNIERE                */
+/*--------------------------------------*/
+
+.baniere {
+  background-image: url(../images/panier-sac-provisions-se-deplace-vitesse-lumiere-generative-ai\ 1.png);
+  background-size: cover;
+  height: 485px;
+  display: flex;
+}
+
+.containerBaniere h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 64px;
+  width: 920px;
+  text-align: center;
+  text-shadow: -1px -1px 0 #1a295a, 1px -1px 0 #1a295a, -1px 1px 0 #1a295a,
+    1px 1px 0 #1a295a;
+}
+
+.containerBaniere {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 /*_________________________________________*/
 /*              PREMIERE PARTIE            */
 /*_________________________________________*/
