@@ -46,7 +46,19 @@
           <h1>Authentification</h1>
         </div>
       </section>
-      <!--Mot de passe oublié-->
+      <!--Connexion et mot de passe oublié-->
+      <section class="connexion">
+        <h2>Connexion</h2>
+        <form action="">
+          <p class="input-label">Votre e-mail :</p>
+          <input type="email" name="mail-id" id="" />
+          <br />
+          <p class="input-label">Votre mot de passe :</p>
+          <input type="password" name="pass" id="" />
+        </form>
+        <a href="indexConnecte.html"><button class="submit">Connexion</button></a>
+      </section>
+
       <section class="forgot">
         <h2>Mot de passe oublié?</h2>
         <p>
@@ -59,7 +71,7 @@
             <input type="text" name="email" id="email" required />
           </div>
           <div class="submit-mail">
-            <input type="submit" value="Envoyer" class="submit">
+            <input type="submit" value="Envoyer" class="submit" />
           </div>
         </form>
       </section>
@@ -77,7 +89,12 @@
             />Monsieur</label
           >
           <label
-            ><input type="radio" name="" id="madame" value="Madame" />Madame</label
+            ><input
+              type="radio"
+              name=""
+              id="madame"
+              value="Madame"
+            />Madame</label
           >
         </form>
         <p class="p-member">Nom :</p>
@@ -93,7 +110,7 @@
         <p class="p-member">Confirmation du mot de passe :</p>
         <label><input type="password" name="re-password" id="text" /></label>
         <div class="inscript">
-          <input type="submit" value="Envoyer" class="submit">
+          <a href="indexConnecte.html"><input type="submit" value="S'inscrire" class="submit" /></a>
         </div>
       </section>
     </main>

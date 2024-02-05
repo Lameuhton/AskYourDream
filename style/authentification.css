@@ -91,6 +91,8 @@ header {
     align-items: center;
     width: 120px;
  }
+
+
 /* Banniere */
 
 .baniere {
@@ -106,11 +108,8 @@ header {
   font-size: 64px;
   width: 920px;
   text-align: center;
-  text-shadow: 
-  -1px -1px 0 #1A295A,  
-   1px -1px 0 #1A295A,
-  -1px  1px 0 #1A295A,
-     1px  1px 0 #1A295A;
+  text-shadow: -1px -1px 0 #1a295a, 1px -1px 0 #1a295a, -1px 1px 0 #1a295a,
+    1px 1px 0 #1a295a;
 }
 
 .containerBaniere {
@@ -126,11 +125,60 @@ header {
 
 /* main */
 
-/* forgot */
+/* connexion et forgot  password */
+
+section {
+  margin-top: 40px;
+}
+
+.connexion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-label {
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+  padding-top: 10px; /* Vous pouvez ajuster cela selon vos besoins */
+}
+
+.connexion h2 {
+  text-align: center;
+  padding-top: 41px;
+}
+
+.connexion p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  margin: 0; /* Ajoutez cette ligne pour supprimer la marge par défaut des paragraphes */
+  margin-bottom: 10px;
+}
+
+.connexion form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.connexion form input {
+  margin: 0;
+}
+
+.connexion button {
+  width: 163px;
+  height: 48px;
+  background-color: #1a295a;
+  color: white;
+  border-radius: 50px;
+  margin-top: 25px;
+}
 
 .forgot h2 {
   text-align: center;
-  padding-top: 90px;
+  padding-top: 41px;
 }
 
 .forgot p {
@@ -177,8 +225,7 @@ input#email {
   height: 48px;
   background-color: #1a295a;
   color: white;
-  font-size: 25px;
-  letter-spacing: 3px;
+  font-size: 20px;
   text-transform: uppercase;
   border-radius: 50px;
 }
@@ -198,7 +245,8 @@ input#email {
 
 .not-member form {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 10px;
+
 }
 
 .not-member label {
@@ -215,9 +263,6 @@ input {
   margin-top: 5px;
 }
 
-.button {
-  font-size: 20px;
-}
 
 .not-member .inscript {
   text-align: center;
@@ -228,7 +273,8 @@ div.inscript {
   padding-bottom: 50px;
 }
 
-#monsieur, #madame {
+#monsieur,
+#madame {
   margin-right: 10px;
 }
 
@@ -252,4 +298,3 @@ footer p {
 .blanc {
     color: white;
 }
-
