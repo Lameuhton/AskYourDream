@@ -219,6 +219,8 @@ header {
 .form-group label {
   margin-bottom: 10px; /* Ajoutez un espace entre le label et l'input/select */
   margin-top: 20px; /* Ajustez la marge supérieure du label selon vos préférences */
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .form-group input,
@@ -284,6 +286,7 @@ body {
 .carousel-inner {
   display: flex;
   width: 100%;
+  
 }
 
 /* Définition des diapositives */
@@ -408,14 +411,14 @@ div.carousel-dots {
 .box-three-part h2 {
   text-align: center;
   font-size: 50px;
-  margin-top: 33px;
+  margin-top: 60px;
 }
 
 .box-three-image-text {
   display: flex;
   justify-content: space-around;
-  padding-top: 143px;
-  height: 300px;
+  padding-top: 100px;
+  height: 200px;
 }
 
 p.text-two {
@@ -471,19 +474,29 @@ strong {
 
 .box-five {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   height: 485px;
+  width: 100%;
+  align-items: center;
+  
 }
 
 .box-five img {
   width: 400px;
   height: 300px;
-  padding-top: 162px;
 }
 
 .box-five h2 {
-  padding-top: 270px;
+  padding-top: 20px;
   font-size: 50px;
+}
+
+.images {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 /* -----------Footer-----------*/
