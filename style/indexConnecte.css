@@ -7,8 +7,8 @@
 * {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
-
-
+    color:#1A295A;
+    
 }
 
 a {   /* Permet d'enlever la mise en forme de base des liens*/
@@ -159,8 +159,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 182px;
-    height: 140px;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -173,16 +173,14 @@ header {
     text-transform: none;
     letter-spacing: 0px;
     font-weight: 600;
-    border-radius: 50px;
-    cursor: pointer;
-    margin: 0;
 }
+/* -----------Première Partie-----------*/
+/* -----------Réveillez votre subconscient-----------*/
 
-/* -----------Bloc Image-----------*/
 
-/* ici photo Conditions a ajouter*/
+
 .premierePartie {
-    background-image: url(../images/backgroundDonnees.png);
+    background-image: url(../images/backgroundImage.png);
     background-size: cover;
     height: 485px;
     display: flex;
@@ -192,8 +190,8 @@ header {
     font-size: 26px;
     color:#1A295A;
     width: 960px;
-    text-align: left;
-    font-weight: 600px;
+    text-align: center;
+    font-weight: 600;
 }
 
 .containerPremierePartie {
@@ -212,23 +210,28 @@ h1 {
     width: 920px;
     text-align: center;
     text-shadow: 
-    -1px -1px 0 #1A295A,  
+    -1px -1px 0 #1A295A,
      1px -1px 0 #1A295A,
     -1px  1px 0 #1A295A,
      1px  1px 0 #1A295A;
 }
 
+h3 {
+ color: white;
+}
 
 .bleuFoncé {
     color: #1A295A;
+    text-shadow: 
+    -1px -1px 0 #ffffff,
+     1px -1px 0 #ffffff,
+    -1px  1px 0 #ffffff,
+     1px  1px 0 #ffffff;
 }
 
 
 /* -----------Deuxième Partie-----------*/
-
-p{
-    text-align: left;
-}
+/* -----------Qui sommes-nous?-----------*/
 
 .imagesPrésentation {
     width: 136px;
@@ -258,13 +261,20 @@ h2 {
     letter-spacing: 5px;
 }
 
-h3 {
-
-    color:#1A295A
+.deuxiemePartie p {
+    font-size: 20px;
+    color: white;
+    width: 1091px;
+    text-align: center;
+    font-weight: 400px;
 }
 
-
-
+figure {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
 
 figcaption {
     color: white;
@@ -281,9 +291,8 @@ figcaption {
 
 .troisiemePartie {
     background-color: white;
-    height: 1500px;
+    height: 500px;
     display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -296,7 +305,7 @@ figcaption {
     font-size: 20px;
     color: #1A295A;
     width: 693px;
-    text-align: left;
+    text-align: right;
     font-weight: 400px;
 }
 
@@ -317,25 +326,73 @@ button {
     letter-spacing: 3px;
     text-transform: uppercase;
     border-radius: 50px;
-}
-
-.boutonBoutique {
     margin-right: auto;
+    cursor: pointer;
 }
 
 
-.donper {
-   display: flex;
-   flex-direction: column;
-   color: #1A295A;
 
+/* -----------Quatrième Partie-----------*/
+/* -----------Notre application-----------*/
+
+.imageTelephone {
+    width: 230px;
+    height: 361px;
 }
 
-.donper li{
-margin-bottom: 10px;
-
+.quatriemePartie {
+    background-color:#1A295A;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
+.quatriemePartie p {
+    font-size: 20px;
+    color: white;
+    width: 622px;
+    text-align: left;
+    font-weight: 400px;
+}
+
+.containerQuatriemePartieTexte {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* -----------Cinquième Partie-----------*/
+
+.imageDormir {
+    width: 503px;
+    height: 358px;
+}
+
+.cinquiemePartie {
+    background-color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cinquiemePartie p {
+    font-size: 20px;
+    color:#1A295A;
+    width: 638px;
+    text-align: center;
+    font-weight: 400px;
+    margin-bottom: 50px;
+}
+
+.cinquiemePartie div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 /* -----------Footer-----------*/
 
 footer {
@@ -345,11 +402,6 @@ footer {
     color: white;
     text-align: center;
 }
-footer p {
-  color: white;
-  text-align: center;
-}
-
 p a {
     text-align: center;
     white-space: nowrap;

@@ -1,21 +1,21 @@
- @font-face {
-        font-family: "Quicksand";
-        src: url("https://fonts.google.com/specimen/Quicksand")
- }
+@font-face {
+    font-family: "Quicksand";
+    src: url("https://fonts.google.com/specimen/Quicksand")
+}
 
 
 * {
-    margin: 0;
-    font-family: 'Quicksand', sans-serif;
-
+margin: 0;
+font-family: 'Quicksand', sans-serif;
+color:#1A295A;
 
 }
 
 a {   /* Permet d'enlever la mise en forme de base des liens*/
-    text-decoration: none;
-    color: inherit;
-    display: inherit;
-    align-items: inherit;
+text-decoration: none;
+color: inherit;
+display: inherit;
+align-items: inherit;
 }
 
 
@@ -159,8 +159,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 182px;
-    height: 140px;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -175,34 +175,26 @@ header {
     font-weight: 600;
     border-radius: 50px;
     cursor: pointer;
-    margin: 0;
 }
 
-/* -----------Bloc Image-----------*/
+
+/* -----------Première partie - bannière-----------*/
 
 /* ici photo Conditions a ajouter*/
 .premierePartie {
-    background-image: url(../images/backgroundDonnees.png);
+    background-image: url(../images/backgroundContact.png);
     background-size: cover;
     height: 485px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .premierePartie p {
     font-size: 26px;
     color:#1A295A;
     width: 960px;
-    text-align: left;
     font-weight: 600px;
-}
-
-.containerPremierePartie {
-    margin-left: auto;
-    margin-right: auto;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
 }
 
 h1 {
@@ -218,123 +210,87 @@ h1 {
      1px  1px 0 #1A295A;
 }
 
-
 .bleuFoncé {
     color: #1A295A;
 }
 
-
-/* -----------Deuxième Partie-----------*/
-
-p{
-    text-align: left;
-}
-
-.imagesPrésentation {
-    width: 136px;
-    height: 136px;
-}
+/* -----------Deuxième partie-----------*/
 
 .deuxiemePartie {
-    background-color: #1A295A;
-    height: 500px;
+    width: 100%;
+    height: 1100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
-.figuresContainer {
-    display: flex;
-    width: 920px;
-    height: 190px;
-    justify-content: space-between;
+.description {
+    width: 50%;
+    height: 108px;
 }
 
 h2 {
-    color: white;
-    font-size: 50px;
-    font-weight: 600px; 
-    letter-spacing: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-h3 {
-
-    color:#1A295A
+.contact {
+    height: 152px;
 }
 
-
-
-
-figcaption {
-    color: white;
-    font-size: 25px;
-}
-
-/* -----------Troisième Partie-----------*/
-/* -----------Notre technologie-----------*/
-
-.imageElectrode {
-    width: 388px;
-    height: 288px;
-}
-
-.troisiemePartie {
-    background-color: white;
-    height: 1500px;
+.description, .contact {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    text-align: center;
     align-items: center;
 }
 
-.troisiemePartie h2 {
-    color: #1A295A;
-}
-
-.troisiemePartie p {
-    font-size: 20px;
-    color: #1A295A;
-    width: 693px;
-    text-align: left;
-    font-weight: 400px;
-}
-
-.containerTroisiemePartieTexte {
-    height: 100%;
+.renseignementsContainer {
+    width: 620px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     justify-content: space-evenly;
+    align-items: left;
+    max-height: 760px;
 }
 
-button {
-    width: 345px;
-    height: 69px;
-    background-color: #1A295A;
+.renseignementsContainer form {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: space-evenly;
+
+}
+
+#objet, #message {
+    display: block;
+    width: 100%;
+    margin-top: 7px;
+}
+
+#nom, #email {
+    width: 192px;
+    margin-left: 7px;
+}
+
+#message {
+    height: 236px;
+}
+
+.submit {
+    width: 163px;
+    height: 48px;
+    background-color: #1a295a;
     color: white;
     font-size: 25px;
     letter-spacing: 3px;
     text-transform: uppercase;
     border-radius: 50px;
-}
-
-.boutonBoutique {
+    margin-left: auto;
     margin-right: auto;
-}
-
-
-.donper {
-   display: flex;
-   flex-direction: column;
-   color: #1A295A;
-
-}
-
-.donper li{
-margin-bottom: 10px;
-
-}
+  }
 
 /* -----------Footer-----------*/
 
@@ -345,11 +301,6 @@ footer {
     color: white;
     text-align: center;
 }
-footer p {
-  color: white;
-  text-align: center;
-}
-
 p a {
     text-align: center;
     white-space: nowrap;

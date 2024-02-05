@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/logo.png" type="image/png"> <!--Icone barre de titre-->
+        <link rel="stylesheet" href="style/contactConnecte.css"/>
+        <title>Contact | AskYouDream</title>
+    </head>
+    <body>
+        <header>
+
+            <div class="containerHeaderFooter">
+                <div class="logoHeader">
+                    <a href="indexConnecte.html">
+                        <img src="images/logo.png" class="logo">
+                        <p>Know yourself</p>
+                    </a>
+                </div>
+                
+                <nav>
+                    <ol class="noBullets">
+                        <li><a href="indexConnecte.html">À propos</a></li>
+                        <li><a href="boutiqueConnecte.html">Boutique</a></li>
+                        <li><a href="contactConnecte.html">Contact</a></li>
+                        <li><a href="faqConnecte.html">FAQ</a></li>
+                    </ol>
+                </nav>  
+                
+                <div class="iconesHeader">
+                    <img src="images/globe.png" id="iconeLangue">
+                    <img src="images/chariot.png" id="iconeChariot">
+                    <div class="iconeUtilisateur">
+                        <img src="images/homme.png" id="utilisateur">
+                        <div class="utilisateurBox">
+                            <div class="utilisateurBoxContainer">
+                                <ul>
+                                    <li><a href="tableauDeBord.html">Tableau de bord</a></li>
+                                    <li><a href="commandes.html">Mes commandes</a></li>
+                                    <li><a href="parametres.html">Paramètres</a></li>
+                                    <li><a href="indexDeconnecte.html"><button class="deconnexion">Se déconnecter</button></a></li>
+                                </ul>
+                            </div>
+                                
+                        </div>
+                    </div>
+                    </div>
+            </div>
+
+        </header>
+
+
+        <main>
+            <!--Première partie - bannière-->
+            <section class="premierePartie">
+                    <h1>Contactez-nous !</h1>
+            </section>
+
+            <!--Deuxième partie-->
+            <section class="deuxiemePartie">
+                <p class="description">Bienvenue dans notre espace de contact ! Nous sommes ravis d'avoir de vos nouvelles. N'hésitez pas à nous contacter pour toute question, commentaire ou demande d'information. Remplissez simplement le formulaire ci-dessous, et nous vous répondrons dans les plus brefs délais.</p>
+                <div class="renseignementsContainer">
+                    <h2>Formulaire de contact</h2>
+
+                    <form action="" method="post">
+                        <div class="containerRadio">
+                            <input type="radio" name="sexe" id="monsieur" />
+                            <label for="monsieur">Monsieur</label>
+                            <input type="radio" name="sexe" id="madame" />
+                            <label for="madame">Madame</label>
+                        </div>
+                        
+                        <label for="nom">Nom complet:<input type="text" name="nom" id="nom" required></label>
+                        <label for="email">Adresse e-mail:<input type="email" name="email" id="email" required></label>
+                        <div class="block">
+                            <label for="objet">Objet de votre message:</label>
+                            <input type="text" name="objet" id="objet" required>
+                        </div>
+                        <div class="block">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car..." required></textarea>
+                        </div>
+                        <input type="submit" value="Envoyer" class="submit">
+
+                    </form>
+                </div>
+
+                <p class="contact">
+                    Ou contactez-nous directement<br>
+                    Adresse : rue de Mulhouse 36<br>
+                    4020 Liège<br>
+                    Téléphone : 04/12121212<br>
+                    E-mail : AskYourDream@gmail.com
+                </p>
+            </section>
+            
+        </main>
+
+        <footer>
+            <div class="containerHeaderFooter">
+                <img src="images/logo.png" class="logo">
+                <p>
+                    <span class="blanc"><a href="#">Politique de confidentialité</a> | <a href="conditionsConnecte.html">Conditions d'utilisation</a></span>
+                    <br> © 2024 Ask Your Dream - Libérez le potentiel de votre esprit pendant la nuit.
+                </p>
+                <img src="images/logo.png" class="logo">
+            </div>
+        </footer>
+    </body>
+</html>

@@ -7,8 +7,8 @@
 * {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
-
-
+    color:#1A295A;
+    
 }
 
 a {   /* Permet d'enlever la mise en forme de base des liens*/
@@ -27,7 +27,6 @@ a {   /* Permet d'enlever la mise en forme de base des liens*/
 .logoHeader p {
     font-family: 'Playfair Display', serif;
 }
-
 
 main {
     padding-top: 80px;
@@ -90,8 +89,8 @@ header {
 }
 
 #utilisateur {
-    width: 26.36px;
-    height: 28px;
+    width: 24.36px;
+    height: 26px;
 }
 
 .iconesHeader {
@@ -101,88 +100,15 @@ header {
     width: 120px;
  }
 
-/*Pour l'affichage de la box sur l'icone utilisateur*/
 
-.iconeUtilisateur {
-    border-radius: 10px;
-    /*transition: background-color 0.3s, margin 0.3s;``*/
-    display: flex;
-    justify-content: flex-end;
-    transition: background-color 0.3s; /* Ajout de la transition pour la propriété background-color */
-    overflow: hidden;
-    padding: 2px; /* Ajustez la valeur selon vos besoins pour prévoir de l'espace pour le fond plus grand */
-    background-color: #fff;
-}
+ 
+/* -----------Première Partie-----------*/
+/* -----------Réveillez votre subconscient-----------*/
 
-.iconeUtilisateur:hover {
-    background-color: #1A295A; /* Couleur de fond lors du survol */
-}
 
-.iconeUtilisateur img {
-    border-radius: 10px;
-    transition: filter 0.3s; /* Ajoute une transition pour un effet plus fluide */
-}
 
-.utilisateurBox {
-    margin-top: 29px;
-    display: none;
-    position: absolute;
-    background-color: #1A295A;
-    border-radius: 15px; 
-    width: 182px;
-    height: 140px;
-
-}
-
-.iconeUtilisateur:hover .utilisateurBox,
-.utilisateurBox:hover {
-    display: block;
-}
-
-.utilisateurBox li {
-    color: white;
-    list-style-type: none;
-    margin: auto;
-}
-
-.utilisateurBox ul {
-    
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 0;
-}
-
-.utilisateurBoxContainer {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 182px;
-    height: 140px;
-
-}
-
-.deconnexion {
-    color:#1A295A;
-    background: white;
-    width: 140px;
-    height: 26px;
-    font-size: 15px;
-    text-transform: none;
-    letter-spacing: 0px;
-    font-weight: 600;
-    border-radius: 50px;
-    cursor: pointer;
-    margin: 0;
-}
-
-/* -----------Bloc Image-----------*/
-
-/* ici photo Conditions a ajouter*/
 .premierePartie {
-    background-image: url(../images/backgroundDonnees.png);
+    background-image: url(../images/backgroundImage.png);
     background-size: cover;
     height: 485px;
     display: flex;
@@ -192,8 +118,8 @@ header {
     font-size: 26px;
     color:#1A295A;
     width: 960px;
-    text-align: left;
-    font-weight: 600px;
+    text-align: center;
+    font-weight: 600;
 }
 
 .containerPremierePartie {
@@ -212,23 +138,28 @@ h1 {
     width: 920px;
     text-align: center;
     text-shadow: 
-    -1px -1px 0 #1A295A,  
+    -1px -1px 0 #1A295A,
      1px -1px 0 #1A295A,
     -1px  1px 0 #1A295A,
      1px  1px 0 #1A295A;
 }
 
+h3 {
+ color: white;
+}
 
 .bleuFoncé {
     color: #1A295A;
+    text-shadow: 
+    -1px -1px 0 #ffffff,
+     1px -1px 0 #ffffff,
+    -1px  1px 0 #ffffff,
+     1px  1px 0 #ffffff;
 }
 
 
 /* -----------Deuxième Partie-----------*/
-
-p{
-    text-align: left;
-}
+/* -----------Qui sommes-nous?-----------*/
 
 .imagesPrésentation {
     width: 136px;
@@ -258,13 +189,20 @@ h2 {
     letter-spacing: 5px;
 }
 
-h3 {
-
-    color:#1A295A
+.deuxiemePartie p {
+    font-size: 20px;
+    color: white;
+    width: 1091px;
+    text-align: center;
+    font-weight: 400px;
 }
 
-
-
+figure {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
 
 figcaption {
     color: white;
@@ -281,9 +219,8 @@ figcaption {
 
 .troisiemePartie {
     background-color: white;
-    height: 1500px;
+    height: 500px;
     display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -296,7 +233,7 @@ figcaption {
     font-size: 20px;
     color: #1A295A;
     width: 693px;
-    text-align: left;
+    text-align: right;
     font-weight: 400px;
 }
 
@@ -317,23 +254,80 @@ button {
     letter-spacing: 3px;
     text-transform: uppercase;
     border-radius: 50px;
-}
-
-.boutonBoutique {
     margin-right: auto;
+    cursor: pointer;
 }
 
 
-.donper {
-   display: flex;
-   flex-direction: column;
-   color: #1A295A;
 
+/* -----------Quatrième Partie-----------*/
+/* -----------Notre application-----------*/
+
+.imageTelephone {
+    width: 230px;
+    height: 361px;
 }
 
-.donper li{
-margin-bottom: 10px;
+.quatriemePartie {
+    background-color:#1A295A;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.quatriemePartie p {
+    font-size: 20px;
+    color: white;
+    width: 622px;
+    text-align: left;
+    font-weight: 400px;
+}
+
+.containerQuatriemePartieTexte {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* -----------Cinquième Partie-----------*/
+
+.imageDormir {
+    width: 503px;
+    height: 358px;
+}
+
+.cinquiemePartie {
+    background-color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cinquiemePartie p {
+    font-size: 20px;
+    color:#1A295A;
+    width: 638px;
+    text-align: center;
+    font-weight: 400px;
+    margin-bottom: 50px;
+}
+
+.cinquiemePartie div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cinquiemePartie div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 /* -----------Footer-----------*/
@@ -345,11 +339,6 @@ footer {
     color: white;
     text-align: center;
 }
-footer p {
-  color: white;
-  text-align: center;
-}
-
 p a {
     text-align: center;
     white-space: nowrap;

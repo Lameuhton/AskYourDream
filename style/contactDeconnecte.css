@@ -1,0 +1,237 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("https://fonts.google.com/specimen/Quicksand")
+}
+
+
+* {
+margin: 0;
+font-family: 'Quicksand', sans-serif;
+color:#1A295A;
+
+}
+
+a {   /* Permet d'enlever la mise en forme de base des liens*/
+text-decoration: none;
+color: inherit;
+display: inherit;
+align-items: inherit;
+}
+
+
+/* --------------- Header -----------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+
+.logoHeader p {
+    font-family: 'Playfair Display', serif;
+}
+
+main {
+    padding-top: 80px;
+}
+
+.noBullets {
+    list-style-type: none;
+    padding: 0; /* pour qu'il n'y ai plus de puces devant */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 543.51px;
+    height: 53.33px;
+    color:#1A295A;
+}
+
+.noBullets li, .logoHeader p {
+    font-weight: bold;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerHeaderFooter { /* Pour le header et le footer */
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoHeader {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    width: 68.81px;
+    height: 56.53px;
+    margin-right: 10px;
+}
+
+#iconeLangue {
+    width: 26.96px;
+    height: 26px;
+}
+
+#iconeChariot {
+    width: 26px;
+    height: 26px;
+}
+
+#utilisateur {
+    width: 24.36px;
+    height: 26px;
+}
+
+.iconesHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+ }
+
+
+/* -----------Première partie - bannière-----------*/
+
+/* ici photo Conditions a ajouter*/
+.premierePartie {
+    background-image: url(../images/backgroundContact.png);
+    background-size: cover;
+    height: 485px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.premierePartie p {
+    font-size: 26px;
+    color:#1A295A;
+    width: 960px;
+    font-weight: 600px;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 64px;
+    width: 920px;
+    text-align: center;
+    text-shadow: 
+    -1px -1px 0 #1A295A,  
+     1px -1px 0 #1A295A,
+    -1px  1px 0 #1A295A,
+     1px  1px 0 #1A295A;
+}
+
+.bleuFoncé {
+    color: #1A295A;
+}
+
+/* -----------Deuxième partie-----------*/
+
+.deuxiemePartie {
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.description {
+    width: 50%;
+    height: 108px;
+}
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact {
+    height: 152px;
+}
+
+.description, .contact {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.renseignementsContainer {
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    max-height: 760px;
+}
+
+.renseignementsContainer form {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: space-evenly;
+
+}
+
+#objet, #message {
+    display: block;
+    width: 100%;
+    margin-top: 7px;
+}
+
+#nom, #email {
+    width: 192px;
+    margin-left: 7px;
+}
+
+#message {
+    height: 236px;
+}
+
+.submit {
+    width: 163px;
+    height: 48px;
+    background-color: #1a295a;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+/* -----------Footer-----------*/
+
+footer {
+    background-color:#1A295A;
+    height: 130px;
+    display: flex;
+    color: white;
+    text-align: center;
+}
+p a {
+    text-align: center;
+    white-space: nowrap;
+}
+footer p {
+  color: white;
+}
+
+.blanc {
+    color: white;
+}

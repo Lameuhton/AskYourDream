@@ -3,12 +3,9 @@
         src: url("https://fonts.google.com/specimen/Quicksand")
  }
 
-
 * {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
-
-
 }
 
 a {   /* Permet d'enlever la mise en forme de base des liens*/
@@ -180,9 +177,9 @@ header {
 
 /* -----------Bloc Image-----------*/
 
-/* ici photo Conditions a ajouter*/
+/* ici photo FAQ a ajouter*/
 .premierePartie {
-    background-image: url(../images/backgroundDonnees.png);
+background-image: url(../images/backgroundFAQ.png);
     background-size: cover;
     height: 485px;
     display: flex;
@@ -227,28 +224,12 @@ h1 {
 /* -----------Deuxième Partie-----------*/
 
 p{
-    text-align: left;
+    text-align: center;
 }
 
 .imagesPrésentation {
     width: 136px;
     height: 136px;
-}
-
-.deuxiemePartie {
-    background-color: #1A295A;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.figuresContainer {
-    display: flex;
-    width: 920px;
-    height: 190px;
-    justify-content: space-between;
 }
 
 h2 {
@@ -264,24 +245,12 @@ h3 {
 }
 
 
-
-
-figcaption {
-    color: white;
-    font-size: 25px;
-}
-
 /* -----------Troisième Partie-----------*/
-/* -----------Notre technologie-----------*/
-
-.imageElectrode {
-    width: 388px;
-    height: 288px;
-}
+/*taille block ici*/
 
 .troisiemePartie {
     background-color: white;
-    height: 1500px;
+    height: 1800px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -308,33 +277,36 @@ figcaption {
     justify-content: space-evenly;
 }
 
-button {
-    width: 345px;
-    height: 69px;
-    background-color: #1A295A;
-    color: white;
-    font-size: 25px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    border-radius: 50px;
-}
 
 .boutonBoutique {
     margin-right: auto;
 }
 
 
-.donper {
+.lisol{
    display: flex;
    flex-direction: column;
    color: #1A295A;
 
 }
 
-.donper li{
-margin-bottom: 10px;
+.listol li{
+margin-bottom: 20px;
 
 }
+
+button {
+    width: 305px;
+    height: 69px;
+    background-color: #1A295A;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 3px;
+    border-radius: 50px;
+    margin-bottom: 40px;
+}
+
+
 
 /* -----------Footer-----------*/
 
@@ -345,11 +317,6 @@ footer {
     color: white;
     text-align: center;
 }
-footer p {
-  color: white;
-  text-align: center;
-}
-
 p a {
     text-align: center;
     white-space: nowrap;

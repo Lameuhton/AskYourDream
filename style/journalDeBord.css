@@ -1,0 +1,508 @@
+* {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  color: #1a295a;
+}
+
+a {
+  /* Permet d'enlever la mise en forme de base des liens*/
+  text-decoration: none;
+  color: inherit;
+  display: inherit;
+  align-items: inherit;
+}
+
+/* --------------- Header -----------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+
+.logoHeader p {
+    font-family: 'Playfair Display', serif;
+}
+
+
+main {
+    padding-top: 80px;
+}
+
+.noBullets {
+    list-style-type: none;
+    padding: 0; /* pour qu'il n'y ai plus de puces devant */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 543.51px;
+    height: 53.33px;
+    color:#1A295A;
+}
+
+.noBullets li, .logoHeader p {
+    font-weight: bold;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerHeaderFooter { /* Pour le header et le footer */
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoHeader {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    width: 68.81px;
+    height: 56.53px;
+    margin-right: 10px;
+}
+
+#iconeLangue {
+    width: 26.96px;
+    height: 26px;
+}
+
+#iconeChariot {
+    width: 26px;
+    height: 26px;
+}
+
+#utilisateur {
+    width: 26.36px;
+    height: 28px;
+}
+
+.iconesHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+ }
+
+/*Pour l'affichage de la box sur l'icone utilisateur*/
+
+.iconeUtilisateur {
+    border-radius: 10px;
+    /*transition: background-color 0.3s, margin 0.3s;``*/
+    display: flex;
+    justify-content: flex-end;
+    transition: background-color 0.3s; /* Ajout de la transition pour la propriété background-color */
+    overflow: hidden;
+    padding: 2px; /* Ajustez la valeur selon vos besoins pour prévoir de l'espace pour le fond plus grand */
+    background-color: #fff;
+}
+
+.iconeUtilisateur:hover {
+    background-color: #1A295A; /* Couleur de fond lors du survol */
+}
+
+.iconeUtilisateur img {
+    border-radius: 10px;
+    transition: filter 0.3s; /* Ajoute une transition pour un effet plus fluide */
+}
+
+.utilisateurBox {
+    margin-top: 29px;
+    display: none;
+    position: absolute;
+    background-color: #1A295A;
+    border-radius: 15px; 
+    width: 182px;
+    height: 140px;
+
+}
+
+.iconeUtilisateur:hover .utilisateurBox,
+.utilisateurBox:hover {
+    display: block;
+}
+
+.utilisateurBox li {
+    color: white;
+    list-style-type: none;
+    margin: auto;
+}
+
+.utilisateurBox ul {
+    
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+}
+
+.utilisateurBoxContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 182px;
+    height: 140px;
+
+}
+
+.deconnexion {
+    color:#1A295A;
+    background: white;
+    width: 140px;
+    height: 26px;
+    font-size: 15px;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0;
+}
+
+/* ---------Banniere------------ */
+
+.baniere {
+  background-image: url(../images/footer-ai.png);
+  background-size: cover;
+  height: 485px;
+  display: flex;
+}
+
+.containerBaniere h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 64px;
+  width: 920px;
+  text-align: center;
+  text-shadow: -1px -1px 0 #1a295a, 1px -1px 0 #1a295a, -1px 1px 0 #1a295a,
+    1px 1px 0 #1a295a;
+}
+
+.containerBaniere {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/*----------------------------*/
+/* ------- PREMIERE PARTIE -------*/
+
+.box-first-part form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.form-group label {
+  margin-bottom: 10px; /* Ajoutez un espace entre le label et l'input/select */
+  margin-top: 20px; /* Ajustez la marge supérieure du label selon vos préférences */
+}
+
+.form-group input,
+.form-group select {
+  margin-bottom: 209px; /* Ajoutez une marge inférieure aux inputs/selects */
+}
+
+.titre h2 {
+  text-align: center;
+  margin-top: 94px;
+  font-size: 50px;
+}
+
+/*----------------------------------*/
+
+/* ------- DEUXIEME PARTIE -------- */
+
+.box-two-part {
+  background-color: rgb(26, 41, 90);
+  height: 518px;
+  width: 100%;
+  padding-top: 80px; /* Ajustez la valeur selon vos besoins */
+}
+
+.box-two-part h2 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 30px; /* Ajustez la valeur selon vos besoins */
+  margin-bottom: 30px;
+}
+
+.box-two-part-images {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 120px;
+}
+
+/*-------------------------------------------------*/
+/*-------------CARROUSEL--------------------------*/
+/*-------------------------------------------------*/
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Définition d'un container pour gérer l'affichage */
+.container {
+  overflow: hidden;
+  display: inline-block;
+  /* Utilisez "inline-block" pour que le conteneur prenne uniquement la largeur du carrousel */
+}
+
+/* Définition du carousel */
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Définition de l'élément contenant les diapositives */
+.carousel-inner {
+  display: flex;
+  width: 100%;
+}
+
+/* Définition des diapositives */
+.slide {
+  min-width: 100%;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+/* Définition de l'affichage de l'image de chaque diapositive */
+
+/* Définition des boutons de contrôle du carousel */
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style des boutons de contrôle */
+.carousel-controls button {
+  padding: 10px;
+  /* Ajout de padding pour un meilleur contrôle */
+  background-color: #ffffff;
+  /* Arrière-plan en aquamarine */
+}
+
+/* Définition des points de contrôle */
+/* Ajustements pour les points de navigation du carrousel */
+.carousel-dots-container {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 2; /* Augmentez le z-index pour placer les dots au-dessus des images */
+}
+
+/* Style des points de contrôle */
+.carousel-dots-container .dot {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+/* Styles pour les points de navigation du carrousel */
+.carousel-dots-container .active {
+  background-color: #717171;
+}
+
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px; /* Ajoutez une marge en haut pour éviter que les dots ne disparaissent */
+}
+
+/* Définition des diapositives */
+.slide {
+  min-width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center; /* Centrer horizontalement */
+}
+
+/* Définition de l'affichage de l'image de chaque diapositive */
+.slide img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/*---------------------------------*/
+/*---------DOTS DU CARROUSEL-------*/
+
+.carousel-dots-container {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 2; /* Augmentez le z-index pour placer les dots au-dessus des images */
+}
+
+.dot {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot.active {
+  background-color: white;
+}
+
+#prev,
+#next {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+div.carousel-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*---------------------------------*/
+/*------- TROISIEME PARTIE -----------*/
+
+.box-three-part h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 33px;
+}
+
+.box-three-image-text {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 143px;
+  height: 300px;
+}
+
+p.text-two {
+  height: 213px;
+  width: 963px;
+  margin-top: 22px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*--------------------------------------------*/
+/*-----------QUATRIEME PARTIE ----------------*/
+
+.box-four {
+  background-color: rgb(26, 41, 90);
+  width: 100%;
+  height: 485px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Pour centrer horizontalement */
+  justify-content: center; /* Pour centrer verticalement */
+}
+
+.list-text ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0; /* Supprimer la marge par défaut sur la liste */
+  list-style-type: none; /* Supprimer les puces */
+}
+
+.list-text li {
+  color: white;
+  width: 100%;
+  max-width: 1004px;
+  margin-bottom: 20px;
+}
+
+.box-four h2 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 36px;
+  padding-top: 40px;
+}
+
+strong {
+  color: white; /* attention c'est pour tout les strong */
+}
+
+/*----------------------------------------------------*/
+/*----------------CINQUIEME PARTIE--------------------*/
+
+.box-five {
+  display: flex;
+  justify-content: space-around;
+  height: 485px;
+}
+
+.box-five img {
+  width: 400px;
+  height: 300px;
+  padding-top: 162px;
+}
+
+.box-five h2 {
+  padding-top: 270px;
+  font-size: 50px;
+}
+
+/* -----------Footer-----------*/
+
+footer {
+    background-color:#1A295A;
+    height: 130px;
+    display: flex;
+    color: white;
+    text-align: center;
+}
+p a {
+    text-align: center;
+    white-space: nowrap;
+}
+footer p {
+  color: white;
+}
+
+.blanc {
+    color: white;
+}
