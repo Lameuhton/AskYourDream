@@ -126,8 +126,11 @@
     </footer>
     <script>
     function afficherAlerteEtRediriger() {
-        alert("Un lien pour changer de mot de passe vous a été envoyé par mail ! Vous allez être redirigé vers la page d'accueil.");
-        window.location.href = 'index.html';
+        var confirmation = confirm("Un mail pour réinitialiser votre mot de passe vous a été envoyé par email ! Vous allez être redirigé vers la page d'accueil.");
+
+        if (confirmation) {
+            window.location.href = 'index.html';
+        }
     }
 
     var bouton = document.getElementById("submitMail");
