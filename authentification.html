@@ -71,7 +71,7 @@
             <input type="text" name="email" id="email" required />
           </div>
           <div class="submit-mail">
-            <input type="submit" value="Envoyer" class="submit" />
+            <input type="submit" value="Envoyer" class="submit" id="submitMail" />
           </div>
         </form>
       </section>
@@ -115,14 +115,24 @@
       </section>
     </main>
     <footer>
-            <div class="containerHeaderFooter">
-                <img src="images/logo.png" class="logo">
-                <p>
-                    <span class="blanc"><a href="#">Politique de confidentialité</a> | <a href="conditionsDeconnecte.html">Conditions d'utilisation</a></span>
-                    <br> © 2024 Ask Your Dream - Libérez le potentiel de votre esprit pendant la nuit.
-                </p>
-                <img src="images/logo.png" class="logo">
-            </div>
-        </footer>
+        <div class="containerHeaderFooter">
+            <img src="images/logo.png" class="logo">
+              <p>
+                  <span class="blanc"><a href="#">Politique de confidentialité</a> | <a href="conditionsDeconnecte.html">Conditions d'utilisation</a></span>
+                  <br> © 2024 Ask Your Dream - Libérez le potentiel de votre esprit pendant la nuit.
+              </p>
+              <img src="images/logo.png" class="logo">
+        </div>
+    </footer>
+    <script>
+    function afficherAlerteEtRediriger() {
+        alert("Un lien pour changer de mot de passe vous a été envoyé par mail ! Vous allez être redirigé vers la page d'accueil.");
+        window.location.href = 'index.html';
+    }
+
+    var bouton = document.getElementById("submitMail");
+
+    bouton.addEventListener("click", afficherAlerteEtRediriger);
+    </script>
   </body>
 </html>
