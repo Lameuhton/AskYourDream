@@ -89,13 +89,13 @@
             /></label>
             <p class="help">Date d'échéance (mm/aaaa)</p>
             <label for=""><input type="date" name="date-ech" id="num" /></label>
-            <button class="blue">Payer</button>
+            <button class="blue" id="payer">Payer</button>
           </section>
         </div>
       </section>
       <!--SECTION BOUTON ANNULER-->
       <section class="container-annulation">
-        <button>Annuler</button>
+        <a href="boutiqueConnecte.html"><button>Annuler</button></a>
       </section>
       <!--SECTION LOGO BANCONTACT-->
       <section class="logo-bancontact">
@@ -114,4 +114,14 @@
             </div>
         </footer>
   </body>
+  <script>
+    function afficherAlerteEtRediriger() {
+        alert("Merci pour votre achat ! Votre commande est en cours de préparation.");
+        window.location.href = 'commandes.html';
+    }
+
+    var bouton = document.getElementById("payer");
+
+    bouton.addEventListener("click", afficherAlerteEtRediriger);
+  </script>
 </html>
