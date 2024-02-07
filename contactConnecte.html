@@ -83,7 +83,7 @@
                             <label for="message">Message:</label>
                             <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car..." required></textarea>
                         </div>
-                        <input type="submit" value="Envoyer" class="submit">
+                        <input type="submit" value="Envoyer" class="submit" id="submitMessage">
 
                     </form>
                 </div>
@@ -108,5 +108,15 @@
                 </p>
                 <img src="images/logo.png" class="logo">
             </div>
+             <script>
+                function afficherAlerteEtRediriger() {
+                    alert("Votre message nous a été envoyé, nous vous répondrons dans les plus brefs délais.");
+                    window.location.href = 'indexConnecte.html';
+                }
+            
+                var bouton = document.getElementById("submitMessage");
+            
+                bouton.addEventListener("click", afficherAlerteEtRediriger);
+              </script>
         </footer>
 </html>
